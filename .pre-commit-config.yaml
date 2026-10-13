@@ -20,11 +20,12 @@ repos:
       - id: fix-smartquotes
       - id: fix-spaces
       - id: fix-unicode-dashes
-  - repo: https://github.com/codespell-project/codespell
-    rev: v2.4.1
+  - repo: https://github.com/streetsidesoftware/cspell-cli
+    rev: v10.0.1
     hooks:
-      - id: codespell
-        args: [--ignore-words=accepted-words.txt]
+      - id: cspell
+        additional_dependencies:
+          - "@cspell/dict-de-de"
   - repo: https://github.com/hukkin/mdformat
     rev: 1.0.0
     hooks:

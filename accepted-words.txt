@@ -1,0 +1,28 @@
+# Proper Nouns
+auwera
+dendale
+evans
+fischengeil
+gedanensia
+germanica
+johan
+mortelmans
+politt
+studia
+wrocław
+
+# Code
+autohide
+claude
+frontmatter
+github
+mkdocs
+prek
+smartquotes
+venv
+zensical
+
+# Jargon
+deontic
+grammaticalized
+quotative

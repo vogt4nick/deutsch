@@ -1,0 +1,15 @@
+version: "0.2"
+language: en-US,de-DE
+import:
+  - "@cspell/dict-de-de/cspell-ext.json"
+dictionaryDefinitions:
+  - name: accepted-words
+    path: ./accepted-words.txt
+    addWords: true
+dictionaries:
+  - accepted-words
+ignorePaths:
+  - .cache
+  - .venv
+  - site
+  - uv.lock
