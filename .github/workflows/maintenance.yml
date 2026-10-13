@@ -1,0 +1,27 @@
+name: Maintenance
+on:
+  schedule:
+    - cron: "0 0 1 * *"
+  workflow_dispatch:
+
+env:
+  MKDOCS_SITE_DIR: ~/site
+
+jobs:
+  update_dependencies:
+    name: Update build dependencies
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: astral-sh/setup-uv@v7
+        with:
+          python-version: 3.14
+      - name: Update build dependencies
+        run: uv lock --upgrade
+      - name: Create pull request
+        uses: peter-evans/create-pull-request@v8
+        with:
+          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          commit-message: "Update build dependencies"
+          title: Update build dependencies
+          body: Update the uv.lock with the latest valid dependencies.

@@ -1,0 +1,37 @@
+[project]
+site_name = "Dem Nick sein Deutsch"
+site_url = "https://vogt4nick.github.io/deutsch"
+docs_dir = "src"
+site_dir = "site"
+
+[project.validation]
+unused_footnotes = false
+
+[project.plugins]
+awesome-nav = {}
+"minify".minify_html = true
+"search".lang = "de"
+
+[project.theme]
+language = "de"
+features = [
+  "header.autohide",
+  "navigation.indexes",
+  "navigation.instant",
+  "navigation.instant.prefetch",
+  "navigation.instant.progress",
+  "navigation.path",
+  "navigation.tracking",
+  "toc.follow",
+]
+
+[project.markdown_extensions]
+abbr = {}
+admonition = {}
+attr_list = {}
+footnotes = {}
+md_in_html = {}
+"pymdownx.details" = {}
+"pymdownx.snippets" = {}
+"pymdownx.superfences" = {}
+"pymdownx.tabbed".alternate_style = true

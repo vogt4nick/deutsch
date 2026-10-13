@@ -1,0 +1,18 @@
+# Python environments
+.python-version
+.venv
+
+# zensical documentation
+site/
+
+# MacOS artifacts
+.DS_Store
+
+# vscode settings
+.vscode/
+
+# privacy plugin cache
+.cache
+
+# claude
+.claude/*.local.json
