@@ -1,15 +1,22 @@
 # Proper Nouns
 auwera
 dendale
+duden
 evans
 fischengeil
 gedanensia
 germanica
+indo-european
 johan
 mortelmans
+nadathur
+pitteroff
 politt
+prerna
+schuchart
 studia
 wrocław
+yourdailygerman
 
 # Code
 autohide
@@ -23,6 +30,15 @@ venv
 zensical
 
 # Jargon
+backgrounded
+causatives
 deontic
 grammaticalized
+medialkonstruktion
+medialkonstruktionen
+passiversatzform
 quotative
+
+# Colloquial German
+runtergelassen
+runterhängen
