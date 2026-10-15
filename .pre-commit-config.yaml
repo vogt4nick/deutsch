@@ -1,35 +1,46 @@
+# Hook order follows one principle: fixers first, formatters second, checkers
+# third, and slow whole-project steps last. Each stage sees the final output of
+# the one before it, so checkers never flag text a fixer was about to rewrite,
+# and the slow build never runs on files that are still changing.
+#
+# prek priorities are banded by stage, 100 per band, lower runs first:
+#   100-199 fixers, 200-299 formatters, 300-399 checkers, 400-499 whole-project.
+# Hooks sharing a priority run in parallel, so only read-only hooks share one.
+
 repos:
+  # --- Fixers (100-199): cheap, byte-level normalization ---
   - repo: https://github.com/Lucas-C/pre-commit-hooks
     rev: v1.5.6
     hooks:
-      - id: forbid-crlf
       - id: remove-crlf
-      - id: forbid-tabs
+        priority: 100
       - id: remove-tabs
+        priority: 110
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v6.0.0
     hooks:
-      - id: check-yaml
-      - id: detect-private-key
-      - id: end-of-file-fixer
       - id: trailing-whitespace
+        priority: 120
+      - id: end-of-file-fixer
+        priority: 130
   - repo: https://github.com/sirosen/texthooks
     rev: 0.7.1
     hooks:
       - id: fix-ligatures
+        priority: 140
       - id: fix-smartquotes
+        priority: 150
       - id: fix-spaces
+        priority: 160
       - id: fix-unicode-dashes
-  - repo: https://github.com/streetsidesoftware/cspell-cli
-    rev: v10.0.1
-    hooks:
-      - id: cspell
-        additional_dependencies:
-          - "@cspell/dict-de-de"
+        priority: 170
+
+  # --- Formatters (200-299): rewrite files into their canonical style ---
   - repo: https://github.com/hukkin/mdformat
     rev: 1.0.0
     hooks:
       - id: mdformat
+        priority: 200
         args: ["--wrap", "80", "--number", "--keep-footnote-orphans"]
         additional_dependencies:
           - mdformat-footnote
@@ -37,19 +48,44 @@ repos:
           - mdformat-gfm
           - mdformat-mkdocs
           - mdformat-simple-breaks
-  - repo: https://github.com/astral-sh/uv-pre-commit
-    rev: 0.13.1
-    hooks:
-      - id: uv-lock
+  # ruff-check --fix runs before ruff-format: lint fixes can need reformatting.
   - repo: https://github.com/astral-sh/ruff-pre-commit
     rev: v0.17.0
     hooks:
       - id: ruff-check
+        priority: 200
+        args: ["--fix"]
       - id: ruff-format
+        priority: 210
+  - repo: https://github.com/astral-sh/uv-pre-commit
+    rev: 0.13.1
+    hooks:
+      - id: uv-lock
+        priority: 200
+
+  # --- Checkers (300-399): read-only validation, safe to run in parallel ---
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v6.0.0
+    hooks:
+      - id: check-yaml
+        priority: 300
+      - id: detect-private-key
+        priority: 300
+  - repo: https://github.com/streetsidesoftware/cspell-cli
+    rev: v10.0.1
+    hooks:
+      - id: cspell
+        priority: 300
+        args: ["--cache"]
+        additional_dependencies:
+          - "@cspell/dict-de-de"
   - repo: https://github.com/astral-sh/ty-pre-commit
     rev: v0.0.87
     hooks:
       - id: ty
+        priority: 300
+
+  # --- Whole-project (400-499): slowest, so it runs last ---
   - repo: local
     hooks:
       - id: zensical-build
@@ -58,3 +94,4 @@ repos:
         language: system
         pass_filenames: false
         always_run: true
+        priority: 400

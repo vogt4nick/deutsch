@@ -16,3 +16,6 @@ site/
 
 # claude
 .claude/*.local.json
+
+# cspell
+.cspellcache
