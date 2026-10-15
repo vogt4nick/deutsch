@@ -6,6 +6,11 @@ dependencies = [
     "zensical>=0.0.69",
 ]
 
+[tool.ruff.lint]
+select = ["ALL"]
+# Resolve incompatible pydocstyle pairs: D203 vs D211, D212 vs D213
+ignore = ["D203", "D213"]
+
 [tool.uv]
 exclude-newer = "14 days"
 

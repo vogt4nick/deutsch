@@ -37,6 +37,11 @@ repos:
           - mdformat-gfm
           - mdformat-mkdocs
           - mdformat-simple-breaks
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.17.0
+    hooks:
+      - id: ruff-check
+      - id: ruff-format
   - repo: local
     hooks:
       - id: zensical-build

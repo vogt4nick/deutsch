@@ -25,6 +25,7 @@ frontmatter
 github
 mkdocs
 prek
+pydocstyle
 smartquotes
 venv
 zensical
