@@ -11,6 +11,9 @@ select = ["ALL"]
 # Resolve incompatible pydocstyle pairs: D203 vs D211, D212 vs D213
 ignore = ["D203", "D213"]
 
+[tool.ty.rules]
+all = "error"
+
 [tool.uv]
 exclude-newer = "14 days"
 
