@@ -76,7 +76,15 @@ repos:
     hooks:
       - id: cspell
         priority: 300
-        args: ["--cache"]
+        # args replaces the hook's defaults, so they are restated here.
+        # --files must stay last so prek appends the file names after it.
+        args:
+          - --no-must-find-files
+          - --no-progress
+          - --no-summary
+          - --gitignore
+          - --cache
+          - --files
         additional_dependencies:
           - "@cspell/dict-de-de"
   - repo: https://github.com/astral-sh/ty-pre-commit
