@@ -10,6 +10,7 @@ dictionaries:
   - accepted-words
 ignorePaths:
   - .cache
+  - .claude
   - .venv
   - site
   - uv.lock
