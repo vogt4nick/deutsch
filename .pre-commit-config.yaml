@@ -88,6 +88,7 @@ repos:
           - --files
         additional_dependencies:
           - "@cspell/dict-de-de"
+          - "@cspell/dict-de-at"
   - repo: https://github.com/astral-sh/ty-pre-commit
     rev: v0.0.87
     hooks:
