@@ -1,15 +1,19 @@
 # Proper Nouns
+Anki
 Auwera
+Claude
 Dendale
 Duden
 Evans
 Fischengeil
 Gedanensia
 Germanica
+GitHub
 Indo-European
 Johan
 Mortelmans
 Nadathur
+Nico
 Pitteroff
 Politt
 Prerna
@@ -20,9 +24,7 @@ YourDailyGerman
 
 # Code
 autohide
-claude
 frontmatter
-github
 mkdocs
 prek
 pydocstyle
@@ -30,34 +32,34 @@ smartquotes
 venv
 zensical
 
-# Jargon
+# Anki and deck metadata
+kapitel
+niveau
+notetype
+
+# English Jargon
 backgrounded
 causatives
 deontic
 grammaticalized
-medialkonstruktion
-medialkonstruktionen
-passiversatzform
 quotative
 
 # Colloquial German
 runtergelassen
 runterhängen
 
+# German words
+Politeur
+
 # German compound words
 Motivationsschreiben
+Medialkonstruktion
+Medialkonstruktionen
 Paartherapeut
 Paartherapeutin
+Passiversatzform
 Präsenzkurs
-Politeur
 Softskills
 Siegermacht
 Upcycling
 Zweiradmechatroniker
-
-# Anki and deck metadata
-anki
-kapitel
-nicos
-niveau
-notetype
