@@ -1751,36 +1751,6 @@ nicos-weg-a2-0027	DW Nicos Weg::A2	dw-nicos-weg::a2::00::01 wortart-substantiv	"
 nicos-weg-a2-0028	DW Nicos Weg::A2	dw-nicos-weg::a2::00::01 wortart-substantiv	prize	[sound:BAKU_A1_Preis_dwdownload.mp3]der Preis, die Preise
 nicos-weg-a2-0029	DW Nicos Weg::A2	dw-nicos-weg::a2::00::01 wortart-substantiv	actor (male)	[sound:BAKU_A2_Schauspieler_dwdownload.mp3]der Schauspieler, die Schauspieler
 nicos-weg-a2-0030	DW Nicos Weg::A2	dw-nicos-weg::a2::00::01 wortart-substantiv	actor (female); actress	[sound:BAKU_A2_Schauspielerin_dwdownload.mp3]die Schauspielerin, die Schauspielerinnen
-nicos-weg-a2-0031	DW Nicos Weg::A2	dw-nicos-weg::a2::00::01 wortart-substantiv	school leaving examination; high school graduation	[sound:BAKU_A2_Abitur_dwdownload.mp3]das Abitur <br><small><i>nur Singular</i></small><br><small>🇦🇹 die Matura</small>
-nicos-weg-a2-0032	DW Nicos Weg::A2	dw-nicos-weg::a2::00::01 wortart-substantiv	beginner (male)	[sound:BAKU_A2_Anfaenger_dwdownload.mp3]der Anfänger, die Anfänger
-nicos-weg-a2-0033	DW Nicos Weg::A2	dw-nicos-weg::a2::00::01 wortart-substantiv	beginner (female)	[sound:BAKU_A2_Anfaengerinnen_dwdownload.mp3]die Anfängerin, die Anfängerinnen
-nicos-weg-a2-0034	DW Nicos Weg::A2	dw-nicos-weg::a2::00::01 wortart-substantiv	author (male)	[sound:BAKU_B1_Schriftsteller_dwdownload.mp3]der Schriftsteller, die Schriftsteller<br><br>[sound:BAKU_A2_Autor_dwdownload.mp3]der Autor, die Autoren
-nicos-weg-a2-0035	DW Nicos Weg::A2	dw-nicos-weg::a2::00::01 wortart-substantiv	author (female)	[sound:BAKU_A2_Autorin_dwdownload.mp3]die Autorin, die Autorinnen<br><br>[sound:BAKU_A2_schriftstellerin_dwdownload.mp3]die Schriftstellerin, die Schriftstellerinnen
-nicos-weg-a2-0036	DW Nicos Weg::A2	dw-nicos-weg::a2::00::01	back then	[sound:BAKU_B1_damals_dwdownload.mp3]damals
-nicos-weg-a2-0037	DW Nicos Weg::A2	dw-nicos-weg::a2::00::01	He was born in 1929.	[sound:BAKU_A2_er_ist_1929_geboren_dwdownload.mp3]Er ist 1929 geboren.
-nicos-weg-a2-0038	DW Nicos Weg::A2	dw-nicos-weg::a2::00::01	He died in 1995.	[sound:BAKU_A2_er_ist_1995_gestorben_dwdownload.mp3]Er ist 1995 gestorben.
-nicos-weg-a2-0039	DW Nicos Weg::A2	dw-nicos-weg::a2::00::01	to be released (a book)	[sound:BAKU_B1_erscheinen_dwdownload.mp3]erscheinen <br><small><i>erscheint, erschien, ist erschienen</i></small>
-nicos-weg-a2-0040	DW Nicos Weg::A2	dw-nicos-weg::a2::00::01	about; roughly	[sound:BAKU_A1_etwas_dwdownload.mp3]etwa
-nicos-weg-a2-0041	DW Nicos Weg::A2	dw-nicos-weg::a2::00::01	to flee (from something)	[sound:BAKU_B1_fliehen_dwdownload.mp3](vor etwas) fliehen <br><small><i>flieht, floh, ist geflohen</i></small>
-nicos-weg-a2-0042	DW Nicos Weg::A2	dw-nicos-weg::a2::00::01 wortart-substantiv	advanced; advanced student (male)	[sound:BAKU_A2_Fortgeschrittene_der_dwdownload.mp3]der Fortgeschrittene, die Fortgeschrittenen <br><small><i>mit unbestimmtem Artikel: ein Fortgeschrittener, Fortgeschrittene</i></small>
-nicos-weg-a2-0043	DW Nicos Weg::A2	dw-nicos-weg::a2::00::01 wortart-substantiv	advanced; advanced student (female)	[sound:BAKU_A2_Fortgeschrittene_die_dwdownload.mp3]die Fortgeschrittene, die Fortgeschrittenen <br><small><i>mit unbestimmtem Artikel: eine Fortgeschrittene, Fortgeschrittene</i></small>
-nicos-weg-a2-0044	DW Nicos Weg::A2	dw-nicos-weg::a2::00::01	complete/completely; entire/entirely	[sound:BAKU_A1_ganz_dwdownload.mp3]ganz
-nicos-weg-a2-0045	DW Nicos Weg::A2	dw-nicos-weg::a2::00::01	to belong to someone	[sound:BAKU_A2_gehoeren_dwdownload.mp3]jemandem gehören <br><small><i>gehört, gehörte, hat gehört</i></small>
-nicos-weg-a2-0046	DW Nicos Weg::A2	dw-nicos-weg::a2::00::01 wortart-substantiv	story	[sound:BAKU_A2_Geschichte_dwdownload.mp3]die Geschichte, die Geschichten
-nicos-weg-a2-0047	DW Nicos Weg::A2	dw-nicos-weg::a2::00::01	still	[sound:BAKU_immer_noch_dwdownload.mp3]immer noch
-nicos-weg-a2-0048	DW Nicos Weg::A2	dw-nicos-weg::a2::00::01	to have interest in	[sound:BAKU_A2_interesse_haben_an_dwdownload.mp3]Interesse haben an <br><small><i>hat, hatte, hat gehabt</i></small>
-nicos-weg-a2-0049	DW Nicos Weg::A2	dw-nicos-weg::a2::00::01 wortart-substantiv	knowledge	[sound:BAKU_A2_Kenntnis_dwdownload.mp3]die Kenntnis, die Kenntnisse <br><small><i>meist im Plural</i></small>
-nicos-weg-a2-0050	DW Nicos Weg::A2	dw-nicos-weg::a2::00::01 wortart-substantiv	"war<br><img src=""40098375_507.jpg"" width=""50%"" height=""50%"">"	[sound:BAKU_B1_Krieg_dwdownload.mp3]der Krieg, die Kriege
-nicos-weg-a2-0051	DW Nicos Weg::A2	dw-nicos-weg::a2::00::01 wortart-substantiv	artist (male)	[sound:BAKU_B1_Kuenstler_dwdownload.mp3]der Künstler, die Künstler
-nicos-weg-a2-0052	DW Nicos Weg::A2	dw-nicos-weg::a2::00::01 wortart-substantiv	artist (female)	[sound:BAKU_A2_kuenstlerin_dwdownload.mp3]die Künstlerin, die Künstlerinnen
-nicos-weg-a2-0053	DW Nicos Weg::A2	dw-nicos-weg::a2::00::01 wortart-substantiv	"painter; artist (male)<br><img src=""43823603_507.jpg"" width=""50%"" height=""50%"">"	[sound:BAKU_B1_Maler_iSv_Kuenstler_dwdownload.mp3]der Maler, die Maler
-nicos-weg-a2-0054	DW Nicos Weg::A2	dw-nicos-weg::a2::00::01 wortart-substantiv	painter; artist (female)	[sound:BAKU_A2_Malerin_dwdownload.mp3]die Malerin, die Malerinnen
-nicos-weg-a2-0055	DW Nicos Weg::A2	dw-nicos-weg::a2::00::01	after the meal; after eating	[sound:BAKU_A1_nach_dem_Essen_dwdownload.mp3]nach dem Essen
-nicos-weg-a2-0056	DW Nicos Weg::A2	dw-nicos-weg::a2::00::01 wortart-substantiv	level; standard	[sound:BAKU_A2_Niveau_dwdownload.mp3]das Niveau, die Niveaus <br><small><i>aus dem Französischen</i></small>
-nicos-weg-a2-0057	DW Nicos Weg::A2	dw-nicos-weg::a2::00::01 wortart-substantiv	"postcard<br><img src=""40284317_507.jpg"" width=""50%"" height=""50%"">"	[sound:BAKU_A2_Postkarte_dwdownload.mp3]die Postkarte, die Postkarten
-nicos-weg-a2-0058	DW Nicos Weg::A2	dw-nicos-weg::a2::00::01 wortart-substantiv	prize	[sound:BAKU_A1_Preis_dwdownload.mp3]der Preis, die Preise
-nicos-weg-a2-0059	DW Nicos Weg::A2	dw-nicos-weg::a2::00::01 wortart-substantiv	actor (male)	[sound:BAKU_A2_Schauspieler_dwdownload.mp3]der Schauspieler, die Schauspieler
-nicos-weg-a2-0060	DW Nicos Weg::A2	dw-nicos-weg::a2::00::01 wortart-substantiv	actor (female); actress	[sound:BAKU_A2_Schauspielerin_dwdownload.mp3]die Schauspielerin, die Schauspielerinnen
 nicos-weg-a2-0061	DW Nicos Weg::A2	dw-nicos-weg::a2::00::01 wortart-substantiv	"Switzerland<br><img src=""40101677_507.jpg"" width=""50%"" height=""50%"">"	[sound:BAKU_A1_Schweiz_dwdownload.mp3]die Schweiz <br><small><i>nur Singular, immer mit Artikel</i></small>
 nicos-weg-a2-0062	DW Nicos Weg::A2	dw-nicos-weg::a2::00::01	since	[sound:BAKU_A1_seit_dwdownload.mp3]seit
 nicos-weg-a2-0063	DW Nicos Weg::A2	dw-nicos-weg::a2::00::01	to die	[sound:BAKU_A2_sterben_dwdownload.mp3]sterben <br><small><i>stirbt, starb, ist gestorben</i></small>
