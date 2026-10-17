@@ -16,6 +16,7 @@ repos:
         priority: 100
       - id: remove-tabs
         priority: 110
+        exclude: ^anki-decks
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v6.0.0
     hooks:

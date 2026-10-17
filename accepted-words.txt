@@ -43,3 +43,21 @@ quotative
 # Colloquial German
 runtergelassen
 runterhängen
+
+# German compound words
+Motivationsschreiben
+Paartherapeut
+Paartherapeutin
+Präsenzkurs
+Politeur
+Softskills
+Siegermacht
+Upcycling
+Zweiradmechatroniker
+
+# Anki and deck metadata
+anki
+kapitel
+nicos
+niveau
+notetype

@@ -8,6 +8,9 @@ dictionaryDefinitions:
     addWords: true
 dictionaries:
   - accepted-words
+ignoreRegExpList:
+  - "\\[sound:[^\\]]+\\]"
+  - "(?:^|[\\s,(])-[^\\s,()]+"
 ignorePaths:
   - .cache
   - .claude
