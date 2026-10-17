@@ -6,10 +6,12 @@ dictionaryDefinitions:
   - name: accepted-words
     path: ./accepted-words.txt
     addWords: true
+    caseSensitive: false
 dictionaries:
   - accepted-words
 ignoreRegExpList:
   - "\\[sound:[^\\]]+\\]"
+  - "^#notetype:.*$"
   - "(?:^|[\\s,(])-[^\\s,()]+"
 ignorePaths:
   - .cache

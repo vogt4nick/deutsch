@@ -1,26 +1,27 @@
 # Proper Nouns
-Anki
+anki
 Auwera
-Claude
+claude
 Dendale
-Duden
-Evans
-Fischengeil
+duden
+evans
+fischengeil
 Gedanensia
 Germanica
-GitHub
+github
 Indo-European
 Johan
-Mortelmans
-Nadathur
+mortelmans
+nadathur
 Nico
-Pitteroff
-Politt
+Nicos
+pitteroff
+politt
 Prerna
 Schuchart
 Studia
 Wrocław
-YourDailyGerman
+yourdailygerman
 
 # Code
 autohide
@@ -49,17 +50,32 @@ runtergelassen
 runterhängen
 
 # German words
+anbekommen
+Girocard
+gesprayt
+hineindrehen
 Politeur
+sauermachen
 
 # German compound words
-Motivationsschreiben
+dreizehnstellige
+Einwascher
+Freiberuflichkeit
 Medialkonstruktion
 Medialkonstruktionen
+Motivationsschreiben
+Nasssauger
+Osmosegerät
 Paartherapeut
 Paartherapeutin
 Passiversatzform
+Pelletheizung
 Präsenzkurs
-Softskills
+Restaurantfachmann
+Restaurantleiter
+Scanfunktion
 Siegermacht
+Softskills
 Upcycling
+Urinbeutel
 Zweiradmechatroniker
