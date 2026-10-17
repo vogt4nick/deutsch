@@ -1,22 +1,22 @@
 # Proper Nouns
-auwera
-dendale
-duden
-evans
-fischengeil
-gedanensia
-germanica
-indo-european
-johan
-mortelmans
-nadathur
-pitteroff
-politt
-prerna
-schuchart
-studia
-wrocław
-yourdailygerman
+Auwera
+Dendale
+Duden
+Evans
+Fischengeil
+Gedanensia
+Germanica
+Indo-European
+Johan
+Mortelmans
+Nadathur
+Pitteroff
+Politt
+Prerna
+Schuchart
+Studia
+Wrocław
+YourDailyGerman
 
 # Code
 autohide
