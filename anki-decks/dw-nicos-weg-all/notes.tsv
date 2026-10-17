@@ -1,9 +1,9 @@
 #separator:Tab
 #notetype:Basic
-#deck column:2
-#columns:note_id	deck	tags	Front	Back
-#tags column:3
 #guid column:1
+#deck column:2
+#tags column:3
+#columns:note_id	deck	tags	Front	Back
 nicos-weg-a1-0001	DW Nicos Weg::A1	dw-nicos-weg::a1::00::01	also	[sound:BAKU_A1_auch_dwdownload.mp3]auch
 nicos-weg-a1-0002	DW Nicos Weg::A1	dw-nicos-weg::a1::00::01 wortart-substantiv	example	[sound:BAKU_A1_Beispiel_dwdownload.mp3]das Beispiel, die Beispiele
 nicos-weg-a1-0003	DW Nicos Weg::A1	dw-nicos-weg::a1::00::01	thanks	[sound:BAKU_A1_danke_dwdownload.mp3]danke <br><small><i>alternativ: danke schön / danke sehr</i></small>
